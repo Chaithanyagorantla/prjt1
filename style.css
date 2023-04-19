@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    color: red;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+nav>h1{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size:60px;
+}
+.main{
+    width: 100%;
+    height:120vh;
+    background: url("https://cdn.arstechnica.net/wp-content/uploads/2022/07/netflix.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+    z-index: 0;
+    display: flex;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.op{
+    width: 380px;
+    height: 500px;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.9;
+    
+}
+.form{
+    width: 380px;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-direction: column;
+    z-index: 2;
+    position: absolute;
+
+}
+.form>input{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(86, 83, 83);
+     color:white; 
+}
+.form>h1{
+    color: white;
+}
+.ipp{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.ip{
+    width: 300px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.bt>button{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(250, 5, 5);
+    color: aliceblue;
+}
+.bt{
+    width: 300px;
+    height: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 50px;
+}
+.para1{
+    width: 300px;
+    height: 70px;
+    flex-direction: column;
+    color: rgb(184, 185, 186);
+    display: flex;
+    justify-content: space-between;
+}
+.para2{
+    width: 300px;
+    height: 20px;
+    color: rgb(184, 185, 186);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.p1{
+    display: flex;
+}
